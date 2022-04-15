@@ -3,7 +3,17 @@ entries:
   chart-template:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-04-05T01:03:07.139465729+07:00"
+    created: "2022-04-15T23:28:30.347616691+07:00"
+    description: A Helm chart for Kubernetes
+    digest: a78d09d5991a1a70343803fbffdc8a03cf36336a297089d509b42e486c3fc589
+    name: chart-template
+    type: application
+    urls:
+    - https://cocdibui.github.io/chart/chart-template-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-04-15T23:28:30.34650047+07:00"
     description: A Helm chart for Kubernetes
     digest: 19b1df9da759f0f22d2e7fde34c53c67849d1a93c12454644b1e84f8d567d2cf
     name: chart-template
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://cocdibui.github.io/chart/chart-template-0.1.0.tgz
     version: 0.1.0
-generated: "2022-04-05T01:03:07.138761712+07:00"
+generated: "2022-04-15T23:28:30.345200722+07:00"
