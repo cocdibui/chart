@@ -1,3 +1,80 @@
 apiVersion: v1
-entries: {}
-generated: "2022-12-07T11:34:05.495606+07:00"
+entries:
+  chart-template:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-07T11:38:27.707592+07:00"
+    description: A Helm chart for Kubernetes
+    digest: f71f782a6bef09d8a6e26536fbdd28ff6507e02f6e98acb68cd729c0f76c469f
+    name: chart-template
+    type: application
+    urls:
+    - https://cocdibui.github.io/chart/chart-template-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-07T11:38:27.707059+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 23a73b2c0c2169849281386a29b0bd5e8da5397033a25f3772ca729fd34cc8f4
+    name: chart-template
+    type: application
+    urls:
+    - https://cocdibui.github.io/chart/chart-template-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-07T11:38:27.706635+07:00"
+    description: A Helm chart for Kubernetes
+    digest: a78d09d5991a1a70343803fbffdc8a03cf36336a297089d509b42e486c3fc589
+    name: chart-template
+    type: application
+    urls:
+    - https://cocdibui.github.io/chart/chart-template-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-12-07T11:38:27.706128+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 19b1df9da759f0f22d2e7fde34c53c67849d1a93c12454644b1e84f8d567d2cf
+    name: chart-template
+    type: application
+    urls:
+    - https://cocdibui.github.io/chart/chart-template-0.1.0.tgz
+    version: 0.1.0
+  postgresql-ha:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 14.2.0
+    created: "2022-12-07T11:38:27.711781+07:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: This PostgreSQL cluster solution includes the PostgreSQL replication
+      manager, an open-source tool for managing replication and failover on PostgreSQL
+      clusters.
+    digest: fe26956f83cf622c99740d137913f06233b42d40aef7932cea4515550192f654
+    home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - repmgr
+    - pgpool
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    - high availability
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: postgresql-ha
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    - https://www.postgresql.org/
+    urls:
+    - https://cocdibui.github.io/chart/postgresql-ha-9.0.3.tgz
+    version: 9.0.3
+generated: "2022-12-07T11:38:27.705678+07:00"
