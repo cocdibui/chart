@@ -3,7 +3,7 @@ entries:
   chart-template:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-04T14:12:13.123440674+07:00"
+    created: "2023-07-04T14:28:04.124359484+07:00"
     description: A Helm chart for Kubernetes
     digest: d601635b88e5464f93c565900d4f4863bdab9743beed7b5e078958b8fa41657f
     name: chart-template
@@ -13,9 +13,9 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-04T14:12:13.123011217+07:00"
+    created: "2023-07-04T14:28:04.123933729+07:00"
     description: A Helm chart for Kubernetes
-    digest: b738775dc5f4ad513dba7b0ba052bbb6d3d5d161cf96abfc0c6549dd69700667
+    digest: 544db6979bae01ecc96cfdb2d604f99be3b6c4124c1fb2a3b36edb9fc2b9a9c0
     name: chart-template
     type: application
     urls:
@@ -23,7 +23,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-04T14:12:13.121745195+07:00"
+    created: "2023-07-04T14:28:04.123525853+07:00"
     description: A Helm chart for Kubernetes
     digest: 23a73b2c0c2169849281386a29b0bd5e8da5397033a25f3772ca729fd34cc8f4
     name: chart-template
@@ -33,7 +33,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-04T14:12:13.120445301+07:00"
+    created: "2023-07-04T14:28:04.123194035+07:00"
     description: A Helm chart for Kubernetes
     digest: a78d09d5991a1a70343803fbffdc8a03cf36336a297089d509b42e486c3fc589
     name: chart-template
@@ -43,7 +43,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-07-04T14:12:13.119532469+07:00"
+    created: "2023-07-04T14:28:04.122868223+07:00"
     description: A Helm chart for Kubernetes
     digest: 19b1df9da759f0f22d2e7fde34c53c67849d1a93c12454644b1e84f8d567d2cf
     name: chart-template
@@ -56,7 +56,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 14.2.0
-    created: "2023-07-04T14:12:13.127998197+07:00"
+    created: "2023-07-04T14:28:04.127603005+07:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -87,4 +87,4 @@ entries:
     urls:
     - https://cocdibui.github.io/chart/postgresql-ha-9.0.3.tgz
     version: 9.0.3
-generated: "2023-07-04T14:12:13.117902572+07:00"
+generated: "2023-07-04T14:28:04.122276105+07:00"
